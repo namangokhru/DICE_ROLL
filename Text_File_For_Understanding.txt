@@ -1,0 +1,29 @@
+A module for understanding 
+
+
+
+heading sectinon 
+I use h1 element and set it's parameter's accordingly through css for editing 
+now to show the result ( Player1 wins or Player2 wins) in place of refresh i use following css code 
+if( randomNumber1 > randomNumber2)
+document.querySelector("h1").innerHTML = "player 1 wins" ; 
+else if( randomNumber1 < randomNumber2)
+document.querySelector("h1").innerHTML = "player 2 wins" ;
+else
+document.querySelector("h1").innerHTML = "It's draw " ;
+
+--------------------------------------------------------------------------------------------------------
+body section 
+html 
+I use div element for the partioning of the body code in html 
+css 
+making below changes in css for  of the player-container 
+display:flex ; 
+justify-content: center;
+java-script 
+so logic for the approach was that ki we have to change the image source according to 
+the random number and this we can done by following 
+document.querrySelectorAll("img")[0].changeAttribute("src") = "Images/" + "dice" + randomNumber1 + ".png" ; 
+
+-------------------------------------------------------------------------------------------------------
+button part 
