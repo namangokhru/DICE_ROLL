@@ -1,0 +1,49 @@
+body{
+    background-color: #27374D;
+}
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    font-family : system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    margin-top: 200px;
+}
+.player-container{
+    display: flex;
+    justify-content: center;
+}
+.player-box{
+    display: table;
+    height: 305px;
+    width: 305px;
+ 
+}
+.player-Name1{
+  
+    font-size: 3rem;
+      margin-left: 30px;
+    color: white;
+    
+}
+.player-Name2{
+    margin-left: 120px;
+    font-size: 3rem;
+    color: white;
+    
+}
+.img2{
+    height:200px;
+    width:200px; 
+    margin-left: 105px;
+}
+.img1{
+    height:200px;
+    width:200px; 
+}
+.btn{
+    margin-left: 850px;
+    background-color: whitesmoke;
+    height: 50px;
+    width: 100px;
+}
